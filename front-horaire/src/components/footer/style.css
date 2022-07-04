@@ -4,14 +4,53 @@
     bottom: 0;
     left: 400px;
     width: 100%;
-    height: 100px;
+    height: 150px;
 
 }
 
 .cont{
-text-align: center;
+        position: absolute;
+        left: 500px;
+        top: 30px;
 }
 
 .cont span{
     font-weight: bold;
+    margin-right: 20px;
+}
+
+.foot Button{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 40px;
+    left: 1200px;
+}
+
+input[type="range"]
+{
+    width: 500px;
+    height: 50px;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+.max {
+    position: absolute;
+    top: 110px;
+    left: 960px;
+}
+
+.min{
+    position: absolute;
+    top: 110px;
+    left: 500px;
 }

@@ -3,6 +3,7 @@
 .option{
 
     position: absolute;
+    position: fixed;
     display: flex;
     width: 400px;
     height: 1100px;
@@ -20,12 +21,22 @@
   }
 
   .option li{
+    color: rgb(6, 6, 121);
     padding-bottom: 50px;
+    cursor: pointer;
 
   }
 
-  span{
+  .dec{
+    color: rgb(6, 6, 121);
     position: absolute;
-    top: 1000px;
+    top: 950px;
     left: 150px;
+  }
+
+  
+  img{
+    width: 30px;
+    color: rgb(6, 6, 121);
+
   }

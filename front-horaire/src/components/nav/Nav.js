@@ -8,14 +8,14 @@ const Navig = () => {
         
 
       <ul className="ul-navig">
-        <li className="li-navig">Mes appels</li>
-        <li className="li-navig">Configuration</li>
-        <li className="li-navig">Compte</li>
-        <li className="li-navig">Boutique</li>
+        <li className="li-navig"><img src="./img/tel.png" alt="cadie"/> Mes appels</li>
+        <li className="li-navig"><img src="./img/param.png" alt="param"/> Configuration</li>
+        <li className="li-navig"><img src="./img/user.png" alt="user"/> Compte</li>
+        <li className="li-navig"><img src="./img/cadie.png" alt="cadie"/> Boutique</li>
 
       </ul>
 
-      <span>Deconnexion</span>
+      <span className="dec"><img src="./img/deconnexion.png" alt="deco"/> Deconnexion</span>
     </div>
   );
 };

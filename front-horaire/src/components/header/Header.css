@@ -1,5 +1,6 @@
 .head{
     position: absolute;
+    position: fixed;
     left: 400px;
     width: 100%;
 }
@@ -25,5 +26,9 @@
 
 .color li{
   padding-left: 200px;
+  font-size: 16px;
 }
 
+img{
+    color: white;
+}

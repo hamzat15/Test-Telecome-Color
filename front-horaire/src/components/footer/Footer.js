@@ -7,13 +7,17 @@ const Footer = () => {
         <div className='foot'>
             <div className='cont'>
        
-            <span><p>Essai gratuit</p></span><p>30 minutes d'appel restantes dans votre periode d'essai</p>
+            <p><span className='bold'>Essai gratuit</span>  30 minutes d'appel restantes dans votre periode d'essai</p>
             <input 
             type="range"
-            min="0" max="30"
+            
+            max="30"
+            
             />
             </div>
-            <Button variant="danger">Choisir un plan</Button>
+            <div className='range'>
+            <span className='min'>0min</span><Button variant="danger">Choisir un plan</Button><span className='max'>30min</span>
+            </div>
         </div>
     );
 };
