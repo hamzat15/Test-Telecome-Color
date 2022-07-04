@@ -1,0 +1,29 @@
+.head{
+    position: absolute;
+    left: 400px;
+    width: 100%;
+}
+
+.color{
+    background-color: rgb(88, 7, 88);
+    height: 150px;
+    color: white;
+
+}
+
+.ul-nav{
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    list-style: none;
+    left: 100px;
+    top: 50px;
+   
+}
+
+.color li{
+  padding-left: 200px;
+}
+

@@ -1,0 +1,31 @@
+
+
+.option{
+
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 1100px;
+    background-color: rgba(104, 101, 101, 0.212);
+    bottom: 0px;
+
+  }
+
+  .option ul{
+    position: absolute;
+    top: 400px;
+    list-style: none;
+    left: 100px;
+
+  }
+
+  .option li{
+    padding-bottom: 50px;
+
+  }
+
+  span{
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+  }
