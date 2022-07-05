@@ -27,21 +27,13 @@
     left: 1200px;
 }
 
-input[type="range"]
+.rang
 {
     width: 500px;
     height: 50px;
 }
 
-input[type=range]::-moz-range-thumb {
-    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-    border: 1px solid #000000;
-    height: 36px;
-    width: 16px;
-    border-radius: 3px;
-    background: #ffffff;
-    cursor: pointer;
-  }
+
 
 .max {
     position: absolute;

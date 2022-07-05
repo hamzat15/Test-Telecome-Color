@@ -1,3 +1,8 @@
+@import '~antd/dist/antd.css';
+
+
+
+
 .contain{
     position: absolute;
     position: fixed;
@@ -7,4 +12,100 @@
     width: 100%;
     height: 100%;
 
+}
+
+.H{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+.F{
+    position: absolute;
+    left: 950px;
+    top: 50px;
+}
+
+.horaire{
+    position: absolute;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px rgba(90, 87, 87, 0.288);
+    box-shadow: 5px;
+    width: 1000px;
+    height: 250px;
+    left: 300px;
+    padding: 40px 20px 1px 40px;
+    top: 50px;
+    
+}
+
+.horaire h4{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.jour{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+
+}
+
+
+input[type="submit"]{
+    position: absolute;
+    right: 800px;
+    top: 180px;
+    border: none;
+    color: red;
+    background-color: white;
+}
+
+.horaires{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 400px;
+}
+
+.groupe{
+    position: absolute;
+    right: 20px;
+}
+.box{
+    margin-right: 5px;
+    background-color: red;
+    width: 1px;
+    padding-right: 18px;
+    color: white;
+}
+
+.box:hover{
+    background-color: grey;
+    color: white;
+}
+
+.range
+{
+    width: 300px;
+    height: 20px;
+}
+
+.add{
+    position: absolute;
+    width: 750px;
+    height: 100px;
+    left: 450px;
+    padding-left: 100px;
+    top: 300px;
+}
+.add Button{
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.add p{
+    position: absolute;
+    top: 30px;
 }

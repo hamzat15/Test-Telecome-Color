@@ -32,3 +32,22 @@
 img{
     color: white;
 }
+
+.horl{
+    position: absolute;
+    right: 670px;
+}
+
+.ligne{
+    position: absolute;
+    border-bottom: 5px solid white;
+    border-radius: 10px;
+    width: 100px;  
+    bottom: 15px;
+    right: 565px;
+}
+
+.minute{
+    position: absolute;
+    right: 520px;
+}
