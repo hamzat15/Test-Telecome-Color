@@ -25,7 +25,7 @@
         "prettier": "^2.7.1"
     },
     "prisma": {
-      "schema": "db/schema.prisma",
-      "seed": "node db/seed.js"
+        "schema": "db/schema.prisma",
+        "seed": "node db/seed.js"
     }
 }
