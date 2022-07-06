@@ -7,7 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
+model horaire {
   id Int @id @default(autoincrement())
   fuseau String 
   jours String

@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE `User` (
+CREATE TABLE `horaire` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `fuseau` VARCHAR(191) NOT NULL,
     `jours` VARCHAR(191) NOT NULL,
