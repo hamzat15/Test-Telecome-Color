@@ -2,14 +2,14 @@
     position: absolute;
     
     left: 700px;
-    top: 600px;
+    top: 570px;
     width: 1000px; 
     height: 200px;
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+   
 
 
 }
-
 

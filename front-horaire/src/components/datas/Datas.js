@@ -22,10 +22,17 @@ const Datas = () => {
   };
 
 
+  function addStr(str, index, stringToAdd){
+    if(str.length === 4){
+      index = 2;
+    }
+    return str.substring(0, index) + stringToAdd + str.substring(index, str.length);
+  }
+  let stre = "h-";
   return (
     <div className="post">
        <table className='table table-striped'>
-        <thead>
+        <thead className="headee">
           <tr>
             <th scope='col'>Fuseau</th>
             <th scope='col'>JOURS</th>
@@ -38,10 +45,10 @@ const Datas = () => {
               <th scope='row'>{post.fuseau}</th>
               <td>{post.jours}</td>
               <td>
-                {post.horaire}
+              <input value="" />{addStr(post.horaire.toString(),1,stre)}h
               </td>
               <td>
-              <Button variant="danger">Choisir un plan</Button>
+              <Button >Modifier</Button>
               </td>
               <td>
               <Button variant="danger" id={post.id} onClick={(e) => delet(e.target.id)}>Supprimer avec un double click</Button>

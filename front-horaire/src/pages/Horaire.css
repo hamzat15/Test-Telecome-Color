@@ -54,7 +54,6 @@
 
 }
 
-
 input[type="submit"]{
     position: absolute;
     right: 800px;
@@ -71,23 +70,6 @@ input[type="submit"]{
     width: 400px;
 }
 
-.groupe{
-    position: absolute;
-    right: 20px;
-}
-.box{
-    margin-right: 5px;
-    background-color: red;
-    width: 1px;
-    padding-right: 18px;
-    color: white;
-}
-
-.box:hover{
-    background-color: grey;
-    color: white;
-}
-
 .range
 {
     width: 300px;
@@ -99,7 +81,7 @@ select{
     flex-wrap: wrap; /* Will cause items/button to go to next line */
 
     left: 810px;
-    bottom: 125px;
+    bottom: 160px;
     padding: 5px;
     border-radius: 5px;
     background-color: white;
