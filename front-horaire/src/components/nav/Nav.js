@@ -15,7 +15,7 @@ const Navig = () => {
 
       </ul>
 
-      <span className="dec"><img src="./img/deconnexion.png" alt="deco"/> Deconnexion</span>
+      <span className="dec"><img className="ime" src="./img/deconnexion.png" alt="deco"/> Deconnexion</span>
     </div>
   );
 };

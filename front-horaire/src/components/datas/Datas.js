@@ -45,7 +45,7 @@ const Datas = () => {
               <th scope='row'>{post.fuseau}</th>
               <td>{post.jours}</td>
               <td>
-              <input value="" />{addStr(post.horaire.toString(),1,stre)}h
+              {addStr(post.horaire.toString(),1,stre)}h
               </td>
               <td>
               <Button >Modifier</Button>

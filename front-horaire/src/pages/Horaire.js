@@ -3,7 +3,7 @@ import "./Horaire.css";
 import Header from "../components/header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "../components/nav/Nav";
-import { CFormCheck } from '@coreui/react'
+import { CFormCheck } from "@coreui/react";
 import { Button } from "react-bootstrap";
 import { useState, optionsState } from "react";
 import Footer from "../components/footer/Footer";
@@ -12,11 +12,10 @@ import { TwoThumbInputRange } from "react-two-thumb-input-range";
 import Axios from "axios";
 
 const Horaire = () => {
-  const [value, setValue] = useState([1,24]);
+  const [value, setValue] = useState([1, 24]);
   const [heure, setHeure] = useState("");
   const [fuseau, setFuseau] = useState("");
   const [checked, setChecked] = useState([]);
-
 
   const handleCheck = (event) => {
     var updatedList = [...checked];
@@ -27,16 +26,13 @@ const Horaire = () => {
     }
     setChecked(updatedList.join(""));
   };
-  
+
   const onValueSChange = (values) => {
-  
     setValue(values);
     let val = values.join("");
     let vali = parseInt(val);
-    
-    
+
     setHeure(vali);
-    
   };
 
   const create = () => {
@@ -70,8 +66,10 @@ const Horaire = () => {
             <form id="create-course-form">
               <select
                 value={optionsState}
+                defaultValue="Paris"
                 onChange={(e) => setFuseau(e.target.value)}
               >
+                <option value="">Seletecionner un fuseau</option>
                 <option value="paris">Paris</option>
                 <option value="londres">Londres</option>
                 <option value="sao paulo">Sao Paulo</option>
@@ -84,7 +82,6 @@ const Horaire = () => {
                 label="L"
                 value="lundi "
                 onChange={handleCheck}
-
               />
 
               <CFormCheck
@@ -108,14 +105,14 @@ const Horaire = () => {
                 value="jeudi "
                 onChange={handleCheck}
               />
-               <CFormCheck
+              <CFormCheck
                 button={{ color: "danger" }}
                 id="btn-check-5"
                 label="V"
                 value="vendredi"
                 onChange={handleCheck}
               />
-               <CFormCheck
+              <CFormCheck
                 button={{ color: "danger" }}
                 id="btn-check-6"
                 label="S"
@@ -123,14 +120,13 @@ const Horaire = () => {
                 onChange={handleCheck}
               />
 
-               <CFormCheck
+              <CFormCheck
                 button={{ color: "danger" }}
                 id="btn-check-7"
                 label="D"
                 value="dimanche "
                 onChange={handleCheck}
               />
-              
 
               <div className="horaires">
                 <h4>Horaires</h4>
