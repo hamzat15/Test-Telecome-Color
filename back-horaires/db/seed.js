@@ -9,6 +9,7 @@ async function main() {
             fuseau: 'londre',
             jours: 'mercredi',
             horaire: 23,
+    
         },
     })
 }

@@ -12,4 +12,5 @@ model horaire {
   fuseau String 
   jours String
   horaire Int
+
 }
